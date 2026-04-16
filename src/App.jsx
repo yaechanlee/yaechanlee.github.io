@@ -41,7 +41,7 @@ const PUBLICATIONS = [
     title: "Regional Financial Cooperation and Regional Financial Arrangement",
     journal: "Edward Elgar Handbook on Regional Cooperation and Integration, 123–142",
     coauthor: "with William N. Kring",
-    link: "https://www.elgaronline.com/edcollchap/edcoll/9781800886179/9781800886179.00015.xml",
+    link: "https://www.elgaronline.com/edcollchap-oa/book/9781800373747/book-part-9781800373747-13.xml",
     chapter: true,
   },
   {
