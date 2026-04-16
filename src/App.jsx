@@ -6,78 +6,78 @@ const PUBLICATIONS = [
     title: "Developmental or Liberal? How Japan and South Korea Diffuse Hybrid Financial Market Norms",
     journal: "Development and Change",
     coauthor: "with Saori N. Katada",
-    link: "#",
+    link: "https://onlinelibrary.wiley.com/journal/14677660",
   },
   {
-    year: "Online First",
+    year: "2025",
     title: "From Contest to Convergence in East Asia: Why Do Regional Challengers End Up Resembling Incumbent Institutions?",
-    journal: "The Pacific Review",
+    journal: "The Pacific Review, 39(1): 149–176",
     coauthor: "with William W. Grimes",
-    link: "#",
+    link: "https://www.tandfonline.com/doi/full/10.1080/09512748.2025.2522778",
   },
   {
-    year: "Online First",
-    title: "Regional Approach to Financial Statecraft: Japan and India in the Face of Rising China",
-    journal: "Geopolitics",
+    year: "2025",
+    title: "The Geoeconomics of Regional Currency Contest: How Bilateral Swap Arrangements of India and Japan Counter the Rise of RMB",
+    journal: "Geopolitics, 30(2)",
     coauthor: "with Saori N. Katada",
-    link: "#",
+    link: "https://www.tandfonline.com/doi/full/10.1080/14650045.2024.2388636",
   },
   {
-    year: "Online First",
+    year: "2024",
     title: "Financial Liberalization or State Capitalism? The Developmental State and the Special Purpose Bond Market in South Korea",
-    journal: "Contemporary Politics",
+    journal: "Contemporary Politics, 31(3): 375–394",
     coauthor: "",
-    link: "#",
+    link: "https://www.tandfonline.com/doi/full/10.1080/13569775.2024.2384206",
   },
   {
     year: "2024",
     title: "The Varieties of Financial Statecraft and Middle Powers: Assessing South Korea's Strategic Involvement in Regional Financial Cooperation",
-    journal: "The Pacific Review",
+    journal: "The Pacific Review, 37(5): 913–939",
     coauthor: "with William W. Grimes & William N. Kring",
-    link: "#",
+    link: "https://www.tandfonline.com/doi/full/10.1080/09512748.2023.2281687",
   },
   {
     year: "2024",
     title: "Regional Financial Cooperation and Regional Financial Arrangement",
     journal: "Edward Elgar Handbook on Regional Cooperation and Integration, 123–142",
     coauthor: "with William N. Kring",
-    link: "#",
+    link: "https://www.elgaronline.com/edcollchap/edcoll/9781800886179/9781800886179.00015.xml",
     chapter: true,
   },
   {
-    year: "2023",
+    year: "2024",
     title: "Financial Cooperation in the Asia-Pacific as Regime Complex: Explaining Patterns of Coverage, Membership, and Rules",
-    journal: "International Relations of the Asia-Pacific",
+    journal: "International Relations of the Asia-Pacific, 24(3): 399–428",
     coauthor: "with William W. Grimes & William N. Kring",
-    link: "#",
+    link: "https://academic.oup.com/irap/article-abstract/24/3/399/7424196",
   },
   {
     year: "2023",
     title: "Manifesting the Embedded Developmental State: The Role of South Korea's National Pension Service in Managing Financial Crisis",
     journal: "Review of International Political Economy, 30(5): 1933–1956",
     coauthor: "with William W. Grimes",
-    link: "#",
+    link: "https://www.tandfonline.com/doi/full/10.1080/09692290.2022.2136733",
   },
   {
     year: "2021",
     title: "Riding the Tide: Assessing South Korea's Hedging Strategy through Regional Security Initiatives",
     journal: "The Pacific Review, 36(3): 494–520",
     coauthor: "",
-    link: "#",
+    link: "https://www.tandfonline.com/doi/full/10.1080/09512748.2021.1977685",
   },
   {
     year: "2018",
     title: "Economic Interdependence and Peace: A Case Comparison Between the US-China and US-Japan Trade Disputes",
     journal: "East Asia, 35: 215–232",
     coauthor: "",
-    link: "#",
+    link: "https://link.springer.com/article/10.1007/s12140-018-9296-4",
   },
   {
     year: "2018",
     title: "What Brought Them Together? Comparative Analysis of the Normalization Processes of North Korea-Japan and South Korea-Japan",
     journal: "The Korean Journal of International Studies, 21(3): 411–433",
     coauthor: "",
-    link: "#",
+    link: "https://www.kjis.org/journal/view.html?doi=10.14731/kjis.2023.12.21.3.411",
   },
 ];
 
@@ -150,8 +150,6 @@ export default function App() {
         ::-webkit-scrollbar-track { background: #1e2f52; }
         ::-webkit-scrollbar-thumb { background: #4a6a9e; border-radius: 2px; }
         a { color: inherit; text-decoration: none; }
-
-        /* NAV */
         .nav-item {
           font-family: Arial, sans-serif;
           font-size: 11px;
@@ -168,8 +166,6 @@ export default function App() {
           color: #F4F6FA;
           border-bottom-color: #7FA8D4;
         }
-
-        /* HERO LAYOUT */
         .hero-inner {
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -186,8 +182,6 @@ export default function App() {
           gap: 20px;
           padding: 60px 0;
         }
-
-        /* NAME SIZE — desktop big, mobile smaller */
         .hero-name-line {
           font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
           font-size: clamp(48px, 7vw, 96px);
@@ -195,11 +189,9 @@ export default function App() {
           line-height: 1.0;
           letter-spacing: -0.02em;
         }
-
-        /* PUBLICATIONS GRID */
         .pub-row {
           display: grid;
-          grid-template-columns: 96px 1fr;
+          grid-template-columns: 56px 1fr;
           gap: 0 28px;
           padding: 24px 0;
           border-bottom: 1px solid rgba(244,246,250,0.1);
@@ -213,10 +205,9 @@ export default function App() {
           display: block;
           margin-bottom: 6px;
           transition: color 0.2s;
+          cursor: pointer;
         }
         .pub-title:hover { color: #7FA8D4; }
-
-        /* BUTTONS */
         .btn-outline {
           display: inline-block;
           padding: 10px 28px;
@@ -234,8 +225,6 @@ export default function App() {
           background: rgba(127,168,212,0.13);
           border-color: #7FA8D4;
         }
-
-        /* TAGS */
         .tag {
           font-size: 10px;
           letter-spacing: 0.08em;
@@ -246,8 +235,6 @@ export default function App() {
           color: rgba(127,168,212,0.72);
           white-space: nowrap;
         }
-
-        /* ANIMATIONS */
         @keyframes slideDown {
           from { opacity:0; transform:translateY(-16px); }
           to   { opacity:1; transform:translateY(0); }
@@ -258,47 +245,30 @@ export default function App() {
         .a4{animation:slideDown 0.9s cubic-bezier(.16,1,.3,1) 0.35s both;}
         .a5{animation:slideDown 0.9s cubic-bezier(.16,1,.3,1) 0.45s both;}
         .a6{animation:slideDown 0.9s cubic-bezier(.16,1,.3,1) 0.55s both;}
-
-        /* SECTION PADDING */
         .section-pad { padding: 100px 6vw; }
         .section-inner { max-width: 1100px; margin: 0 auto; }
 
-        /* ── MOBILE ── */
         @media (max-width: 768px) {
           .desktop-nav { display: none !important; }
-          .mob-btn     { display: flex !important; }
-
+          .mob-btn { display: flex !important; }
           .hero-inner {
             grid-template-columns: 1fr;
             gap: 0;
             padding: 40px 6vw 60px;
             min-height: auto;
           }
-          .hero-left { display: none; } /* hide right column on mobile */
+          .hero-left-col { padding: 0; }
           .hero-right { padding: 0; gap: 16px; }
-
-          .pub-row {
-            grid-template-columns: 1fr;
-            gap: 4px 0;
-          }
-          .pub-year-col { padding-bottom: 4px; }
-
+          .pub-row { grid-template-columns: 1fr; gap: 4px 0; }
           .section-pad { padding: 64px 6vw; }
         }
-
-        /* ── DESKTOP ── */
         @media (min-width: 769px) {
           .mob-btn  { display: none !important; }
           .mob-menu { display: none !important; }
         }
-
-        /* ── LARGE DESKTOP ── */
-        @media (min-width: 1400px) {
-          .hero-inner { gap: 80px; }
-        }
       `}</style>
 
-      {/* ── NAV ── */}
+      {/* NAV */}
       <nav style={{
         position: "fixed", top: 0, left: 0, right: 0, zIndex: 100,
         display: "flex", alignItems: "center", justifyContent: "space-between",
@@ -333,12 +303,11 @@ export default function App() {
         </div>
       )}
 
-      {/* ── HERO ── */}
+      {/* HERO */}
       <section
         ref={el => refs.current["About"] = el}
         style={{ paddingTop: 56, background: C.bg, position: "relative", overflow: "hidden" }}
       >
-        {/* Dot grid */}
         <div style={{
           position: "absolute", inset: 0, pointerEvents: "none",
           backgroundImage: "radial-gradient(circle, rgba(244,246,250,0.055) 1px, transparent 1px)",
@@ -346,33 +315,29 @@ export default function App() {
         }} />
 
         <div className="hero-inner">
-          {/* LEFT — Name + tagline */}
-          <div style={{ padding: "80px 0", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+          {/* LEFT */}
+          <div className="hero-left-col" style={{ padding: "80px 0", display: "flex", flexDirection: "column", justifyContent: "center" }}>
             <div className="a1" style={{ fontFamily: F, fontSize: 11, letterSpacing: "0.18em", color: C.dim, marginBottom: 28, textTransform: "uppercase" }}>
               Assistant Professor · International Relations
             </div>
-
-            <div className="a2 hero-name-line"style={{ color: C.white }}>YAECHAN</div>
+            <div className="a2 hero-name-line" style={{ color: C.white }}>YAECHAN</div>
             <div className="a3 hero-name-line" style={{ color: C.accent }}>LEE</div>
-
             <div className="a4" style={{ width: 48, height: 1, background: C.accent, margin: "28px 0" }} />
-
             <div className="a5" style={{ fontFamily: F, fontSize: 12, letterSpacing: "0.06em", color: C.dim }}>
               Hanyang University GSIS · Seoul, Korea
             </div>
-
             <div className="a6" style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 28 }}>
               {[
                 { label: "Google Scholar", href: "https://scholar.google.com/citations?user=crLGqAYAAAAJ" },
                 { label: "Email", href: "mailto:yaechanlee@hanyang.ac.kr" },
                 { label: "CV", href: "cv.pdf" },
               ].map(l => (
-                <a key={l.label} href={l.href} className="btn-outline">{l.label}</a>
+                <a key={l.label} href={l.href} className="btn-outline" target="_blank" rel="noreferrer">{l.label}</a>
               ))}
             </div>
           </div>
 
-          {/* RIGHT — Bio + tags */}
+          {/* RIGHT */}
           <div className="hero-right">
             <p style={{ fontFamily: F, fontSize: 16, lineHeight: 1.9, fontWeight: 400, color: "rgba(244,246,250,0.9)" }}>
               I am an Assistant Professor of International Relations at Hanyang University's Graduate School of International Studies (GSIS) in Seoul. I received my Ph.D. in Political Science from Boston University.
@@ -394,7 +359,7 @@ export default function App() {
 
       <div style={{ height: 1, background: C.line }} />
 
-      {/* ── PUBLICATIONS ── */}
+      {/* PUBLICATIONS */}
       <section ref={el => refs.current["Publications"] = el} style={{ background: C.bg2 }}>
         <div className="section-pad">
           <div className="section-inner">
@@ -408,10 +373,10 @@ export default function App() {
               {PUBLICATIONS.map((p, i) => (
                 <FadeIn key={i} delay={Math.min(i * 0.04, 0.25)}>
                   <div className="pub-row">
-                    <div className="pub-year-col" style={{ paddingTop: 3 }}>
+                    <div style={{ paddingTop: 3 }}>
                       <span style={{
                         fontFamily: F, fontSize: 11, fontWeight: 700,
-                        color: p.year === "Forthcoming" ? C.green : p.year === "Online First" ? C.accent : C.dim,
+                        color: p.year === "Forthcoming" ? C.green : C.accent,
                         letterSpacing: "0.03em", display: "block",
                       }}>{p.year}</span>
                       {p.chapter && (
@@ -419,7 +384,7 @@ export default function App() {
                       )}
                     </div>
                     <div>
-                      <a href={p.link} className="pub-title">{p.title}</a>
+                      <a href={p.link} target="_blank" rel="noreferrer" className="pub-title">{p.title}</a>
                       {p.coauthor && (
                         <span style={{ fontFamily: F, fontSize: 12, color: C.dim, display: "block", marginBottom: 6 }}>{p.coauthor}</span>
                       )}
@@ -435,7 +400,7 @@ export default function App() {
 
       <div style={{ height: 1, background: C.line }} />
 
-      {/* ── CV ── */}
+      {/* CV */}
       <section ref={el => refs.current["CV"] = el} style={{ background: C.bg, textAlign: "center" }}>
         <div className="section-pad">
           <FadeIn>
@@ -449,7 +414,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* ── FOOTER ── */}
+      {/* FOOTER */}
       <footer style={{
         borderTop: `1px solid ${C.line}`,
         padding: "22px 6vw",
