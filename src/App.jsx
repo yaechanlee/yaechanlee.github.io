@@ -417,7 +417,7 @@ export default function App() {
 
           <div style={{ display: "flex", flexDirection: "column", gap: 22, marginBottom: 40 }}>
             <p className="bio-p">
-              I am an Assistant Professor of International Relations at Hanyang University's Graduate School of International Studies (GSIS) in Seoul. I received my Ph.D. in Political Science from Boston University.
+              I am an Assistant Professor of International Relations at Hanyang University's Graduate School of International Studies (GSIS) and Korean Studies Chair at the Department of Korean Studies. I received my Ph.D. in Political Science from Boston University.
             </p>
             <p className="bio-p">
               My research explores how states — particularly in East Asia — use financial institutions and instruments to pursue political goals. I am interested in the ways that public pension funds, development bonds, and regional financial arrangements shape and are shaped by broader geopolitical dynamics. My work has appeared or is forthcoming in <em>Review of International Political Economy</em>, <em>The Pacific Review</em>, <em>Geopolitics</em>, <em>Development and Change</em>, <em>Contemporary Politics</em>, <em>International Relations of the Asia-Pacific</em>, and <em>East Asia</em>, among others.
