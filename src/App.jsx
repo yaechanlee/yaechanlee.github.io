@@ -3,6 +3,14 @@ import { useState, useEffect, useRef } from "react";
 const PUBLICATIONS = [
   {
     year: "2026",
+    title: "When Cooperation Becomes Optional: Dollar Hierarchy and the Durability of Financial Cooperation in East Asia",
+    journal: "Contemporary Politics",
+    coauthor: "",
+    link: "https://doi.org/10.1080/13569775.2026.2722955",
+    ssci: true,
+  },
+  {
+    year: "2026",
     title: "Developmental or Liberal? How Japan and South Korea Diffuse Hybrid Financial Market Norms",
     journal: "Development and Change",
     coauthor: "with Saori N. Katada",
