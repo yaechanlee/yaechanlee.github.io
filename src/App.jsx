@@ -2,6 +2,14 @@ import { useState, useEffect, useRef } from "react";
 
 const PUBLICATIONS = [
   {
+    "year": "2026",
+    "title": "From Financial Regionalism to Capital Market Regionalization: Asian Bond Market Development and China-ASEAN Financial Connectivity",
+    "journal": "The Pacific Review",
+    "coauthor": "with Chen Li & Huanhuan Zheng",
+    "link": "https://www.tandfonline.com/doi/full/10.1080/09512748.2026.2749551",
+    "ssci": true
+  },
+  {
     year: "2026",
     title: "When Cooperation Becomes Optional: Dollar Hierarchy and the Durability of Financial Cooperation in East Asia",
     journal: "Contemporary Politics",
